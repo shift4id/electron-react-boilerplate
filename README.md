@@ -102,7 +102,7 @@ yarn package:win
 
 MIT © [Siddharth Adusumelli](https://github.com/shift4id)
 
-[github-license-image]: https://img.shields.io/github/license/shift4id/electron-react-boilerplate
+[github-license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
 [github-license-url]: https://github.com/shift4id/electron-react-boilerplate/blob/master/LICENSE
 [github-tag-image]: https://img.shields.io/github/tag/shift4id/electron-react-boilerplate.svg?label=version
 [github-tag-url]: https://github.com/shift4id/electron-react-boilerplate
