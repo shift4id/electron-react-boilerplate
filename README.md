@@ -78,6 +78,11 @@ yarn start
 ```
 
 ### Packaging
+Package app for local platform:
+```bash
+yarn package
+```
+
 Package apps for all platforms:
 ```bash
 yarn package:all
