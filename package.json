@@ -45,7 +45,7 @@
     "webpack": "rimraf build && cross-env NODE_ENV=development webpack",
     "build": "rimraf build && cross-env NODE_ENV=production webpack",
     "dev": "yarn webpack && yarn renderer:dev",
-    "start": "yarn main:prod",
+    "start": "yarn build && yarn main:prod",
     "lint:js": "eslint .",
     "lint:js:fix": "yarn lint:js --fix",
     "lint:css": "stylelint \"**/*.{css,scss}\"",
@@ -56,10 +56,11 @@
     "main:prod": "cross-env ELECTRON_ENV=prod NODE_ENV=production run-electron ./build/app.js",
     "renderer:dev": "cross-env ELECTRON_ENV=dev NODE_ENV=development webpack serve",
     "renderer:prod": "cross-env ELECTRON_ENV=prod NODE_ENV=production webpack serve",
-    "package:all": "yarn build && electron-builder -mwl --publish never",
-    "package:lin": "yarn build && electron-builder -l --publish never",
-    "package:mac": "yarn build && electron-builder -m --publish never",
-    "package:win": "yarn build && electron-builder -w --publish never"
+    "package": "yarn build && electron-builder --publish never"
+    "package:all": "yarn package -lmw",
+    "package:lin": "yarn package -l",
+    "package:mac": "yarn package -m",
+    "package:win": "yarn package -w"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
