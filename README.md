@@ -5,7 +5,7 @@
 [![Dependency Status][dependency-image]][dependency-url]
 [![DevDependency Status][dev-dependency-image]][dev-dependency-url]
 
-This is a highly opinionated boilerplate that is extremely customizable for starting projects with Electron and React!
+A highly opinionated boilerplate that is extremely customizable for starting projects with Electron and React!
 
 This boilerplate was made for beginners who don't want to worry about set up, and for my fellow obsessive compulsives that love to have full control of their project!
 
