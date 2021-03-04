@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "ignorePatterns": [
+    "build",
+    "node_modules"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "no-console": ["error", {
+      "allow": ["info", "warn", "error"]
+    }],
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/order": ["error", {
+      "alphabetize": { "order": "asc", "caseInsensitive": true },
+      "groups": [["builtin", "external"], "internal", "parent", ["sibling", "index"]],
+      "newlines-between": "always"
+    }],
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0
+  }
+}

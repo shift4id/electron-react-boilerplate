@@ -1,0 +1,14 @@
+{
+  "overrides": [
+    {
+      "files": [
+        ".babelrc",
+        ".eslintrc",
+        ".prettierrc",
+        ".postcssrc",
+        ".stylelintrc"
+      ],
+      "options": { "parser": "json" }
+    }
+  ]
+}

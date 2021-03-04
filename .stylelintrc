@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-a11y/recommended",
+    "stylelint-prettier/recommended"
+  ]
+}
