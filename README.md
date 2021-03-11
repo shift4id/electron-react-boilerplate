@@ -1,7 +1,6 @@
 # Sid's Electron React Boilerplate :smile:
 
 [![License][github-license-image]][github-license-url]
-[![Github Tag][github-tag-image]][github-tag-url]
 [![Dependency Status][dependency-image]][dependency-url]
 [![DevDependency Status][dev-dependency-image]][dev-dependency-url]
 
@@ -109,8 +108,6 @@ MIT © [Siddharth Adusumelli](https://github.com/shift4id)
 
 [github-license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [github-license-url]: https://github.com/shift4id/electron-react-boilerplate/blob/master/LICENSE
-[github-tag-image]: https://img.shields.io/github/tag/shift4id/electron-react-boilerplate.svg?label=version
-[github-tag-url]: https://github.com/shift4id/electron-react-boilerplate
 [dependency-image]: https://img.shields.io/david/shift4id/electron-react-boilerplate.svg
 [dependency-url]: https://david-dm.org/shift4id/electron-react-boilerplate
 [dev-dependency-image]: https://img.shields.io/david/dev/shift4id/electron-react-boilerplate.svg?label=devDependencies
